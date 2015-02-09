@@ -4,11 +4,11 @@
 
 Browserify plugin to convert [dustjs templates](https://github.com/linkedin/dustjs) to Javascript.
 
-## Supports using partials in the browser
+## Supports dust partials in the browser
 
 This module performs static analysis to detect and browserify templates included using the dust partials syntax.
 
-If your scripts includes a template with a partial:
+If your script includes a template with a partial:
 
 ```
 <p>hello</p>p>
