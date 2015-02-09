@@ -1,0 +1,41 @@
+{
+  "name": "dustjs-browserify",
+  "version": "1.0.0",
+  "description": "Browserify plugin to convert dustjs templates to Javascript.",
+  "author": {
+    "name": "Scott Brady",
+    "email": "scott@sbrady.com"
+  },
+  "keywords": [
+    "dust",
+    "dustjs",
+    "template",
+    "load",
+    "compile",
+    "extension",
+    "browserify"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/scottbrady/dustjs-browserify"
+  },
+  "main": "./index.js",
+  "engines": {
+    "node": "*"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/scottbrady/dustjs-browserify/blob/master/LICENSE"
+  },
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/scottbrady/dustjs-browserify/issues"
+  },
+  "homepage": "https://github.com/scottbrady/dustjs-browserify",
+  "dependencies": {
+    "bluebird": "~2.7.1",
+    "dustjs-linkedin": "~2.5.1",
+    "dustjs-loader": "~1.0.0",
+    "through": "~2.3.6"
+  }
+}
